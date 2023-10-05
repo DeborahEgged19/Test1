@@ -1,0 +1,53 @@
+body{
+    text-align: center;
+    background-color:rgb(168, 216, 221);
+    font-family: 'M PLUS Rounded 1c', sans-serif;
+    font-family: 'Suez One', serif;
+    font-family: 'Tajawal', sans-serif;
+}
+
+.Box{
+    border : 1px solid black;
+    border-radius: 7px;
+    box-shadow: 10px 10px 10px;
+    margin-left: auto;
+    margin-right: auto;
+    width : 400px;
+    background-color: rgb(86, 79, 117);
+    padding :10px;
+}
+table{
+    margin : auto;
+    margin-top: 20px;
+}
+table,th,td{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+th{
+    background-color: rgb(167, 163, 193);
+}
+tr:nth-child(odd){
+    background-color: rgb(96, 170, 199);
+}
+tr:nth-child(even){
+    background-color: rgb(61, 96, 238);
+}
+td{
+    padding: 10px;
+}
+img {
+    max-width: 20px;
+}
+#category{
+height:30px ;
+width: 180px;
+}
+#imgLink{
+    height:30px ;
+    width: 180px;
+}
+.header,h2{
+    font-family: 'Catamaran', sans-serif;
+    font-family: 'Young Serif', serif;
+}
